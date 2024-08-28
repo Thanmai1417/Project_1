@@ -1,0 +1,118 @@
+
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('Images/ram_sita.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Container for Content */
+.content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Anniversary Quote Styles */
+.anniversary-quote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #64dabe; /* Gold color for the quote */
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(91, 77, 77, 0.8); /* Darker background for better readability */
+    border-left: 5px solid #c7e5b1; /* Tomato color border */
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Heading Styles */
+h1 {
+    color: #ffdd99; /* Light color for the main title */
+    margin: 0;
+    padding-bottom: 20px; /* Add padding to separate from content below */
+}
+
+/* Title Highlight Styles */
+.title-highlight {
+    color: #ffa500; /* Orange color for highlighted names */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h1:hover .title-highlight {
+    color: #ff6347; /* Change color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Carousel Styles */
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    width: 100%;
+    border-radius: 15px;
+    display: none; /* Hide images by default */
+}
+
+.carousel-image:first-child {
+    display: block; /* Show the first image */
+}
+
+/* Pie Chart Styles */
+.pie-chart-container {
+    margin: 20px auto;
+    max-width: 400px;
+    position: relative;
+}
+
+/* Surprise Button Styles */
+.surprise-button {
+    margin: 20px 0;
+}
+
+.surprise-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #d3ce63d2;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.surprise-button button:hover {
+    background-color: #4eb6af;
+}
+
+/* Family Names Section */
+.family-names {
+    margin: 20px auto; /* Center horizontally */
+    background-color: rgba(255, 255, 255, 0.616); /* Light background for names */
+    color: #010c09;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Center text inside the box */
+}
+
